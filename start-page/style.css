@@ -98,7 +98,7 @@ body, html {
 
 .parallax { 
     /* The image used */
-    background-image: url("/opt/vivaldi/resources/vivaldi/resources/bg_alt_5.jpg");
+    background-image: url("resources/bg.jpg");
 
     /* Set a specific height */
     height: 100%; 
