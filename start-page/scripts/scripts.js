@@ -19,14 +19,11 @@ function setCookie(name, value)
     var expires = "";
     expires = "; expires=Fri, 31 Dec 9999 23:59:59 GMT";
     document.cookie = name + "=" + (value || "") + expires;
-    window.alert(name + "=" + (value || "") + expires);
 }
 
 function getCookie(cname)
 {
     var match = document.cookie.match(new RegExp('(^| )' + cname + '=([^;]+)'));
-    window.alert(document.cookie);
-    window.alert(match);
     if (match) return match[2];
 }
 
@@ -100,7 +97,6 @@ function indexCreate()
 
     var engine = (getCookie("lastengine") || "startpage");
     current.engine = engine;
-    window.alert(current.engine+engine+"test");
 	
 	$("#engines a").click(function(){ build($(this).attr("ref"), true); });
 	
