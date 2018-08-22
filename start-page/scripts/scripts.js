@@ -9,7 +9,6 @@ var eng = {},
 	idxLogoSmall = [157,56],
 	idxMargin = 24,
 	idxFadedOpacity = 0.3,
-	
 	idxHeight = 0;
 
 var buildcount = 0;
