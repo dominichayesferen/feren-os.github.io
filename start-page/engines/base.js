@@ -1,4 +1,5 @@
-var apiUrl = "http://go.infinise.com/api/2.5/";
+/* var apiUrl = "https://go.infinise.com/api/2.5/"; */
+var apiUrl = "";
 
 
 /*	START PAGE
