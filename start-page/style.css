@@ -1,4 +1,11 @@
-* {
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+      title="Wrap Long Lines">
+  </head>
+  <body>
+    <pre>* {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
@@ -104,7 +111,7 @@ body, html {
   margin-right: 110px;
   margin-bottom: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgba(255,255,255,0.4);
+  color: rgb(255,255,255);
 }
 
 .parallax { 
@@ -248,3 +255,6 @@ body, html {
   text-align: center;
 }
 
+</pre>
+  </body>
+</html>
