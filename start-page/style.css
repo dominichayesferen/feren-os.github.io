@@ -88,6 +88,10 @@ body, html {
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.btn {
+
+}
+
 .blog-item {
   margin-top: 20px;
   margin-left: 110px;
