@@ -23,7 +23,7 @@ function savesettings() {
 //         document.getElementById("bgurltextbox").value="/resources/kyle-hinkson-498968-unsplash.jpg";
 //     }
     setCookie("userbg", document.getElementById("bgurltextbox").value)
-//     window.location.href = "https://feren-os.github.io/start-page";
+    window.location.href = "https://feren-os.github.io/start-page";
 }
 
 
