@@ -88,6 +88,11 @@ body, html {
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.toprighticon {
+    padding: 21px;
+    padding-right: 22px;
+}
+
 .btn {
 
 }
@@ -108,7 +113,7 @@ body, html {
   margin-right: 110px;
   margin-bottom: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.6);
 }
 
 .parallax { 
