@@ -14,7 +14,7 @@ function getCookie(cname)
 var getbgurl = getbgurl || {}
 
 function getbg() {
-    var bgurltext = (getCookie("userbg") || "/resources/kyle-hinkson-498968-unsplash.jpg");
+    var bgurltext = (getCookie("userbg") || "../start-page/resources/kyle-hinkson-498968-unsplash.jpg");
     document.getElementById("bgurltextbox").value=bgurltext;
 }
 
