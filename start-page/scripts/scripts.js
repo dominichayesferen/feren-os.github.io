@@ -59,6 +59,15 @@ function doSearch()
 }
 
 
+/*  CUSTOM BG SUPPORT
+    -----------------------------------------------------  */
+function setBG()
+{
+    var bgurl = (getCookie('userbg') || "resources/kyle-hinkson-498968-unsplash.jpg")
+    document.getElementById("bgparallax").style.backgroundImage = ("url("+bgurl+")")
+}
+
+
 /*	ENGINE INDEX
 	-----------------------------------------------------  */
 	
