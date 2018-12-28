@@ -53,7 +53,7 @@ body {
 	-webkit-text-size-adjust: none;
 	-webkit-user-select: none;
 	font-size: 14px;
-	background-color: #ffffff;
+	background-color: #000000;
 }
 
 body, html {
@@ -119,6 +119,7 @@ body, html {
 .parallax { 
     /* The image used */
     background-image: url("");
+    background-color: black;
 
     /* Set a specific height */
     height: 100%; 
