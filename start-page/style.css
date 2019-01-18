@@ -172,7 +172,7 @@ body, html {
 
 #input input {
 	font-size: 140px;
-	font-family: 'Open Sans Light', sans-serif;
+	font-family: 'Open Sans Light', 'Segoe UI', 'Helvetica Neue', sans-serif;
 	font-weight: 100;
 	text-align: center;
 	background: none;
