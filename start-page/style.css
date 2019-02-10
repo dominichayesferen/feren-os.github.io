@@ -136,6 +136,17 @@ body, html {
   color: rgba(255,255,255,0.6);
 }
 
+hr {
+    margin-left: 110px;
+    margin-right: 110px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    margin: 1em 0;
+    padding: 0;
+}
+
 .parallax { 
     /* The image used */
     background-image: url("");
@@ -192,7 +203,7 @@ body, html {
 
 #input input {
 	font-size: 140px;
-	font-family: 'Open Sans Light', sans-serif;
+	font-family: 'Open Sans Light', 'Segoe UI', 'Helvetica Neue', 'Roboto', sans-serif;
 	font-weight: 100;
 	text-align: center;
 	background: none;
