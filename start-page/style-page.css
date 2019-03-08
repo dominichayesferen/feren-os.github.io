@@ -74,7 +74,7 @@ body, html {
 h2 {
     margin-top: 15px;
     font-size: 42px;
-	font-family: 'Lato Light', sans-serif;
+	font-family: 'Lato Light', 'Open Sans Light', 'Segoe UI', 'Helvetica Neue', 'Roboto', sans-serif;
     color: black;
     font-weight: normal;
 }
