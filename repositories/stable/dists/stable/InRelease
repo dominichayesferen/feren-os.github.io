@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: feren-os.github.io/repositories/stable/
 Label: feren-os.github.io/repositories/stable/
 Codename: stable
-Date: Sun, 17 Mar 2019 19:01:45 UTC
+Date: Sun, 17 Mar 2019 19:37:33 UTC
 Architectures: amd64 i386
 Components: main
 Description: Personal repository
@@ -31,15 +31,15 @@ SHA256:
  53a08837855fb6a30e56c2473ba8e353f3ef8df8a52b3c1f0eb88b31cbcd20de 163 main/binary-i386/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEzxd4h7gDNiL5Qa4V15joHENwVUUFAlyOmZoACgkQ15joHENw
-VUVwJAwAk1s9X3QZRU4e4po4nrD45Eshn3xmWfrnYlr11S3HJ35Dg3E/CquK+VCz
-PEyyPlWYn/C5xrbHIvfUIKsF/pCsbd6Gd+e4cVBokEA6Pjlv9mtAnaLOPRtUV1Jx
-1moH177ZjJce8LPvQzn2zMOLVcLazCiV3H02bdDMjuyTfGW8ScG6T5t48M+MCo0E
-NPEA+AZWYNkWgtOvCeysoDkFZ68jTzfHddGmi76Q9EM5lotABxnwUQiE3cGd+Vln
-xREW8KQQJLLxjxqWNNPLURohweHTGiTVW2/eDzycELbXDAz87D3Ov8TETNn/MY4E
-TPouVDEtewFc1JC3qlcnSLH+8knJZwyF+87TCLDvWPc3cfZhLlEGWh67tUH6ljU7
-bJMmiLJwfq6ZPQvLXw08qvYkGSJccoa0FYZxq2wsRfwdNGwMqIy/Cc0ezXuSQpOL
-Qfzlih9+QwdqHeIlNhfvUhyTZl8XOEYO516C37C9aaXej0ph3l/HT0uKtm/Ple0K
-6W9qClVb
-=5+9i
+iQGzBAEBCgAdFiEEzxd4h7gDNiL5Qa4V15joHENwVUUFAlyOof4ACgkQ15joHENw
+VUXm5gwAjXatuxv1Jwp+uxb+aNlvZXaU1OvbmAUEgXioNbrYp/CcrMy7Xa7XVxEY
+sO78p3Vvq9PQrDrnyzwHU0IH7YFIbw3I0osksXeq8cWJEwxLFyKIEmy+QC5YJe9Q
+hsS5Zn2yMQrfjqwf3F+iv8aD41TFf6rhT4xrQBnL8FUytcTdKbwzOCsqolWHMyDB
+C7jXg4r4DCqGCpCZhSujnpwyYDOW+SvDOuPxMxRxQaGuQRhVHijSRQWvYlqz+wWv
+7qW6XeRPtSL+rVAIVoLlnZkDAKFLnxTqMKLm2Dpr7H0JB8MKAUAfNUB5nNVzzBgb
+CuzBF2XrLYx6OyCkOUgek/sZ76LMSF/wWDu+mVrjliFDyaX+Y69BeGh8tK9CNM2X
+Qj3UQHWGX0J0JhxsCO/zlO92BgBJp2lJwkEzodeQ32izLz5iYdcGz/SCt0NKpTLc
+fLEKpRaJAVrSbg3O+Tb8u5JStdsBQLOBuoYw1DEyHjqswMvBc1Ebjk4+Bk46V0Op
+VFkT+JRc
+=v1pi
 -----END PGP SIGNATURE-----
