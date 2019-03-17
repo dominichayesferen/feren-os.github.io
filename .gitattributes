@@ -193,3 +193,7 @@ repositories/stable/pool/main/f/feren-backgrounds-kde/feren-backgrounds-kde_2019
 repositories/stable/pool/main/f/feren-backgrounds-lite/feren-backgrounds-lite_2018.06.0.0.0_all.deb filter=lfs diff=lfs merge=lfs -text
 repositories/stable/pool/main/f/feren-backgrounds-education/feren-backgrounds-education_2017.11.0.0.1_all.deb filter=lfs diff=lfs merge=lfs -text
 repositories/stable/pool/main/f/feren-backgrounds-education/feren-backgrounds-education_2017.11.0.0.2_all.deb filter=lfs diff=lfs merge=lfs -text
+repositories/stable/pool/main/f/feren-backgrounds-murdock/feren-backgrounds-murdock_2017.01.0.0.4_all.deb filter=lfs diff=lfs merge=lfs -text
+repositories/stable/pool/main/f/feren-backgrounds-lucid/feren-backgrounds-lucid_2016.01.0.0.3_all.deb filter=lfs diff=lfs merge=lfs -text
+repositories/stable/pool/main/f/feren-backgrounds-original/feren-backgrounds-original_2015.07.0.0.3_all.deb filter=lfs diff=lfs merge=lfs -text
+repositories/stable/pool/main/f/feren-backgrounds-neon/feren-backgrounds-neon_2017.01.0.0.6_all.deb filter=lfs diff=lfs merge=lfs -text
