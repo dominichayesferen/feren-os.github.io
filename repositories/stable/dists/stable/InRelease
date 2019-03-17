@@ -4,42 +4,42 @@ Hash: SHA512
 Origin: feren-os.github.io/repositories/stable/
 Label: feren-os.github.io/repositories/stable/
 Codename: stable
-Date: Sun, 17 Mar 2019 18:46:49 UTC
+Date: Sun, 17 Mar 2019 19:01:45 UTC
 Architectures: amd64 i386
 Components: main
 Description: Personal repository
 MD5Sum:
- 6387a105166c75da1e371bc1573a8745 121841 main/binary-amd64/Packages
- c6f91f68700179afd01d9f4279f6466c 34058 main/binary-amd64/Packages.gz
+ 5c2708e29c2477e4af2e4f19737c5f58 126630 main/binary-amd64/Packages
+ 1bc6673e0a7e4fdaff7c5d2faefd5a1a 35075 main/binary-amd64/Packages.gz
  85f6a7689a139e2712b9cbee3331d493 164 main/binary-amd64/Release
- 53d9d0697d5333717b094a71cedf3125 117801 main/binary-i386/Packages
- 33f627a1750adb7e4046dea71633f106 32544 main/binary-i386/Packages.gz
+ d82285d2c023248ecb3b5ae0b76e265e 122590 main/binary-i386/Packages
+ 2d83600015377c4b4361380e2eb90b03 33574 main/binary-i386/Packages.gz
  2d9687ed417ac50f4ff3e025b1c656e8 163 main/binary-i386/Release
 SHA1:
- 8c8a26fe7394ba1ae1165bd42fa9442012253dbe 121841 main/binary-amd64/Packages
- 6029662b9c7f1c076da6fd13c326da9a133c6f96 34058 main/binary-amd64/Packages.gz
+ 7da48458bb6b35c327a78f5c73d1fb9caf98703d 126630 main/binary-amd64/Packages
+ f7bfaf351830dec15f1c42dae3b78dc8d997a4d6 35075 main/binary-amd64/Packages.gz
  82d3411efc15f0928559eb02071b46521db4961b 164 main/binary-amd64/Release
- 8e91a85c5a0f48a0a27584ece8b4ebb42e563f1d 117801 main/binary-i386/Packages
- f7409f1d81dfc9e985f9e61b465d4bfcd58c0124 32544 main/binary-i386/Packages.gz
+ 8a9097e4b4d6e8655b26ce9b2e8ef0ee04b922c5 122590 main/binary-i386/Packages
+ fcc0a82c3ca58dda1563691069ece79869a44299 33574 main/binary-i386/Packages.gz
  884acc341ac7d492ca7971c086139c6277f8b365 163 main/binary-i386/Release
 SHA256:
- c8d90f4c518c69c406e3ccb860ef2e14902f40ea9a1f89798cc83e1f8c1c7bea 121841 main/binary-amd64/Packages
- 247f41f914dd9371c89b256d1d36cbd2e6327e7438136f48bfcfba6722cb4327 34058 main/binary-amd64/Packages.gz
+ 0dbe4a7e01120d3fdc8451ae537c3fa4f55d0289148333002a8d43ecf2dc41d1 126630 main/binary-amd64/Packages
+ d7e3d00b0bffd51275a4cc9fb44dbfed2c6d1098cca779e5215f3081ee12324d 35075 main/binary-amd64/Packages.gz
  957e3387ce72f39effc0feb90d8ac84dd7cf73a1dd9282fc15baf274a904e3b2 164 main/binary-amd64/Release
- 98cdeac68c3215063646f0645e8991b8694d3c9ed0c93960fe1a4f87e04d6564 117801 main/binary-i386/Packages
- 6eb66dd1d2307cda759e20df059908eb690adc5542c905a6da7760598669e60e 32544 main/binary-i386/Packages.gz
+ cc25dda3d8d522bbdf8a4146fd8ebbd5b350d829cf32558a3373849ca66aa4f8 122590 main/binary-i386/Packages
+ 5f93d031e4bb8e3c9237bca809832f953699a0620a131efc1010b674391e6d84 33574 main/binary-i386/Packages.gz
  53a08837855fb6a30e56c2473ba8e353f3ef8df8a52b3c1f0eb88b31cbcd20de 163 main/binary-i386/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEzxd4h7gDNiL5Qa4V15joHENwVUUFAlyOlhoACgkQ15joHENw
-VUX5bgwApsuzvQiqjAZUce9/dpdpWE7Ar8/2WB7On+yiMDHXgp0YlIKiUtJehoHK
-2aY4auQo0YE4f6fMcrJnjTeLfPRE0mesW1zK9zrzo+hXUNRVvF9vtrHdO4UN+LE/
-jSE9awYqYtQIayi/TC35wOp6uz+LJ8NwdG9xWpZ7yWObBhs3jKMA+CTQc3Yi83Zq
-HVn9nOpfG2DQuHP2wp+9oXXJ4W4w4F1bsRrb3fc51zsfXTZBd2XUTkcoA7uGBJO+
-aQrq1XH7b8lFc9P7tMNU8YGe3tj/odAtDXEW2zxIX24buJSNjuWdIteusp9tr0VM
-6GkmzYGkiEDvjTDCvzpw2dRGOTf03hV7qU5sn4ataw39KRkkYCf0h+9sTpwXQYrV
-ONvCljA/YEcIqIZmk1fg502opKTPTQ9N2EcK6g9xFHtXZt+UYruv7kXQNkOzYdKh
-TrAa8vxfGzq44s4y6yrwgcn3Kzz83YzcTpJtxOd/nzdAlufI62hGhkYjVzGkTizq
-bgfUtsuU
-=nYVo
+iQGzBAEBCgAdFiEEzxd4h7gDNiL5Qa4V15joHENwVUUFAlyOmZoACgkQ15joHENw
+VUVwJAwAk1s9X3QZRU4e4po4nrD45Eshn3xmWfrnYlr11S3HJ35Dg3E/CquK+VCz
+PEyyPlWYn/C5xrbHIvfUIKsF/pCsbd6Gd+e4cVBokEA6Pjlv9mtAnaLOPRtUV1Jx
+1moH177ZjJce8LPvQzn2zMOLVcLazCiV3H02bdDMjuyTfGW8ScG6T5t48M+MCo0E
+NPEA+AZWYNkWgtOvCeysoDkFZ68jTzfHddGmi76Q9EM5lotABxnwUQiE3cGd+Vln
+xREW8KQQJLLxjxqWNNPLURohweHTGiTVW2/eDzycELbXDAz87D3Ov8TETNn/MY4E
+TPouVDEtewFc1JC3qlcnSLH+8knJZwyF+87TCLDvWPc3cfZhLlEGWh67tUH6ljU7
+bJMmiLJwfq6ZPQvLXw08qvYkGSJccoa0FYZxq2wsRfwdNGwMqIy/Cc0ezXuSQpOL
+Qfzlih9+QwdqHeIlNhfvUhyTZl8XOEYO516C37C9aaXej0ph3l/HT0uKtm/Ple0K
+6W9qClVb
+=5+9i
 -----END PGP SIGNATURE-----

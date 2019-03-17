@@ -278,6 +278,102 @@ MD5sum: a81d06723ff07849f75cebd4dfd92291
 Description: The Backgrounds of The Very First Feren OS Release that Started It All.
  Changes: Added credits file to /usr/share/doc/feren-backgrounds-original
 
+Package: feren-backgrounds-oxygen
+Version: 2017.10.0.0.3
+Architecture: all
+Maintainer: The feren Team <ferenceo@outlook.com>
+Replaces: feren-backgrounds-original, feren-backgrounds-lucid, feren-backgrounds-murdock, feren-backgrounds-neon
+Homepage: http://ferenos.weebly.com/
+Priority: optional
+Section: x11
+Filename: pool/main/f/feren-backgrounds-oxygen/feren-backgrounds-oxygen_2017.10.0.0.3_all.deb
+Size: 139197584
+SHA256: 5ef60c7c3356d15cbc752dbb70e894d2781d621d2b751f269a4cb7f9d1ab64bd
+SHA1: cf61fc0ba406af70a9023bed3794782cdf80abd9
+MD5sum: 075903653b009166cdb9560c2cc47ee7
+Description: The Backgrounds For feren OS 2017.10 Oxygen
+ Changes: Structural Tweaks to prevent duplicate wallpapers on Plasma
+
+Package: feren-backgrounds-platinum
+Version: 2018.01.0.0.3
+Architecture: all
+Maintainer: The feren Team <ferenceo@outlook.com>
+Replaces: feren-backgrounds-original, feren-backgrounds-lucid, feren-backgrounds-murdock, feren-backgrounds-neon, feren-backgrounds-oxygen
+Homepage: http://ferenos.weebly.com/
+Priority: optional
+Section: x11
+Filename: pool/main/f/feren-backgrounds-platinum/feren-backgrounds-platinum_2018.01.0.0.3_all.deb
+Size: 156425144
+SHA256: c1a32ac912517142e1b4cfd1b3ad9c86de67ba98a2b3d222ee29aa7e61ffc607
+SHA1: 61696cb1778609b66b1fde7d7a62ddc88cc6c98e
+MD5sum: 71a0580e395a727bd69a78d8acd20415
+Description: The Backgrounds For feren OS 2018.01 Platinum
+ Changes: New structure for Plasma Compatibility + Fix
+
+Package: feren-backgrounds-rhenium
+Version: 2018.04.0.0.1
+Architecture: all
+Maintainer: The feren Team <ferenceo@outlook.com>
+Replaces: feren-backgrounds-original, feren-backgrounds-lucid, feren-backgrounds-murdock, feren-backgrounds-neon, feren-backgrounds-oxygen, feren-backgrounds-platinum
+Homepage: http://ferenos.weebly.com/
+Priority: optional
+Section: x11
+Filename: pool/main/f/feren-backgrounds-rhenium/feren-backgrounds-rhenium_2018.04.0.0.1_all.deb
+Size: 175948948
+SHA256: 61ef5f8f34f22bdea2d53c0f20f54456cfe70f7d69bff9e65d4544602c02a9c9
+SHA1: 49c71b939e6a9e6d4b25eab65cf592df6d114dbb
+MD5sum: 858381fca53cd6bcbddb29bfae72beae
+Description: The Backgrounds For feren OS 2018.04 Rhenium
+ Changes: New wallpaper structure for Plasma
+
+Package: feren-backgrounds-silver
+Version: 2018.07.0.0.1
+Architecture: all
+Maintainer: The feren Team <ferenceo@outlook.com>
+Replaces: feren-backgrounds-original, feren-backgrounds-lucid, feren-backgrounds-murdock, feren-backgrounds-neon, feren-backgrounds-oxygen, feren-backgrounds-platinum, feren-backgrounds-rhenium
+Homepage: http://ferenos.weebly.com/
+Priority: optional
+Section: x11
+Filename: pool/main/f/feren-backgrounds-silver/feren-backgrounds-silver_2018.07.0.0.1_all.deb
+Size: 164269896
+SHA256: 039b4d3356931795b2a0d05307ce20f377bb64b1629f28d4b6f985c916fb65cd
+SHA1: 49738764ab68ef70e16e46f582a0c92b44dfe2be
+MD5sum: ac3ccad420ed0f62ba514a5659f7b3b3
+Description: The Backgrounds For feren OS 2018.07 Silver
+ Changes: New structure for Plasma
+
+Package: feren-backgrounds-titanium
+Version: 2018.10.0.0.1
+Architecture: all
+Maintainer: The feren Team <ferenceo@outlook.com>
+Replaces: feren-backgrounds-original, feren-backgrounds-lucid, feren-backgrounds-murdock, feren-backgrounds-neon, feren-backgrounds-oxygen, feren-backgrounds-platinum, feren-backgrounds-rhenium, feren-backgrounds-silver
+Homepage: http://ferenos.weebly.com/
+Priority: optional
+Section: x11
+Filename: pool/main/f/feren-backgrounds-titanium/feren-backgrounds-titanium_2018.10.0.0.1_all.deb
+Size: 146888548
+SHA256: 6f8d6c0e2b4370d0cfe1357597710ad0a4056b36fbef52625fe188b1922c553e
+SHA1: 5dc1b100722ea31df7212e06758d95512da7219f
+MD5sum: ab1942cdee0162b8d7dc30d9e5e7dad5
+Description: The Backgrounds For feren OS 2018.10 Titanium (KDE and Cinnamon supported)
+ Changes: Better Plasma Structuring
+
+Package: feren-backgrounds-uranium
+Version: 2019.01.0.0.1
+Architecture: all
+Maintainer: The feren Team <ferenosdev@outlook.com>
+Replaces: feren-backgrounds-original, feren-backgrounds-lucid, feren-backgrounds-murdock, feren-backgrounds-neon, feren-backgrounds-oxygen, feren-backgrounds-platinum, feren-backgrounds-rhenium, feren-backgrounds-silver, feren-backgrounds-titanium
+Homepage: http://ferenos.weebly.com/
+Priority: optional
+Section: x11
+Filename: pool/main/f/feren-backgrounds-uranium/feren-backgrounds-uranium_2019.01.0.0.1_all.deb
+Size: 145374448
+SHA256: 41c0887143f7ad3451698682dc8a18e92948682adf6e1bbf9017ccda0c6db234
+SHA1: 2c26be49a8128e520345b8ec0ef7410298262c0a
+MD5sum: 3cbeaffcfbc1527d01d6f162dc00e0c7
+Description: The Backgrounds For Feren OS 2019.01 Uranium (KDE and Cinnamon supported)
+ Changes: Improved Plasma Support (NOTE: Users using a non-Unsplash System Wallpaper from the Uranium set may experience background resets or blank backgrounds after this update, this is due to new file names and locations for most backgrounds)
+
 Package: feren-base-upgrade-operations
 Version: 2017.11.0.1.1
 Architecture: all
