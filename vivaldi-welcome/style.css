@@ -15,6 +15,29 @@ h3 {
     color: black;
 }
 
+.grid-main {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.grid-item {
+  display: flex;
+  flex: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item-contents {
+    flex: 1;
+}
+
 .footer {
     position: fixed; 
     bottom: 0;
@@ -42,6 +65,7 @@ h6 {
 	font-family: 'Lato Light', sans-serif;
     weight: normal;
     color: black;
+    margin-top: 20px;
 }
 
 @-webkit-keyframes slide {
@@ -134,7 +158,7 @@ body, html {
   border-radius: 0px;
   background-color: white;
   color: #006aff;
-  margin: 16px;
+  margin: 14px;
   padding: .5em 2em;
   border-radius: 3px;
   text-decoration: none;
@@ -167,29 +191,32 @@ body, html {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.logo-topright {
-    margin: 10px;
-    padding-left: 10px;
+.title-top {
+    margin-left: 10px;
+    -moz-transform: translateX(0%) translateY(30%);
+    -webkit-transform: translateX(0%) translateY(30%);
+    transform: translateX(0%) translateY(30%);
+    width: 90%;
 }
 
-.title-top {
-    padding-top: 50px;
-    margin-left: 10px;
-}
 .top {
     margin-left: 10px;
     padding-top: 5px;
 }
 
 #grid-item {
-  padding: 10px;
   font-size: 30px;
   text-align: center;
 }
 
 .sd-item {
-  box-shadow: 0 0 rgba(0, 0, 0, 0.1), 0 0 3px 3px rgba(0, 0, 0, 0.07);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+#image-right {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .blog-item {
@@ -210,10 +237,11 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(255,255,255,0.4);
 }
-
+    
 .parallax { 
     /* The image used */
-    background-image: url("");
+    background: rgba(0,0,0,0.5) url("");
+    background-blend-mode: darken;
 
     /* Set a specific height */
     height: 100%; 
@@ -236,8 +264,7 @@ body, html {
   left: 0;
   padding: 0;
   color: black;
-  background-color: white;
-  box-shadow: 0 0 14px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0,0,0,0.5);
   text-align: right;
   font-size: 14px;
   font-family: 'Lato', sans-serif;
