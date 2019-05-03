@@ -45,6 +45,13 @@ $(function()
 
     current.engine = (getCookie("lastengine") || "startpage");
 	build(current.engine, false);
+	
+	setTimeout(function () {
+		$("#cookieConsent").fadeIn(200);
+	     }, 4000);
+	    $("#closeCookieConsent, .cookieConsentOK").click(function() {
+		$("#cookieConsent").fadeOut(200);
+	    }); 
 });
 
 function doSearch()
