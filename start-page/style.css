@@ -97,12 +97,18 @@ body, html {
     flex: 1;
 }
 
+.social-all {
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
 .social-left {
-  width: 75%;
+  width: 70%;
 }
 
 .social-right {
-  width: 25%;
+  width: 30%;
 }
 
 
