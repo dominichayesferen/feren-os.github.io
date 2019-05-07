@@ -97,6 +97,14 @@ body, html {
     flex: 1;
 }
 
+.social-left {
+  width: 90%;
+}
+
+.social-right {
+  width: 10%;
+}
+
 
 .sd-item {
     float: center;
@@ -288,50 +296,3 @@ hr {
   background-color: rgba(0,0,0,0.3);
   text-align: center;
 }
-
-/*Cookie Consent Begin*/
-#cookieConsent {
-    background-color: rgba(20,20,20,0.8);
-    min-height: 26px;
-    font-size: 14px;
-    color: #fff;
-    line-height: 26px;
-    padding: 8px 0 8px 30px;
-    font-family: 'Open Sans Light', 'Segoe UI', 'Helvetica Neue', 'Roboto', sans-serif;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: none;
-    z-index: 9999;
-}
-#cookieConsent a {
-    color: #006aff;
-    text-decoration: none;
-}
-#closeCookieConsent {
-    float: right;
-    display: inline-block;
-    cursor: pointer;
-    height: 20px;
-    width: 20px;
-    margin: -15px 0 0 0;
-    font-weight: bold;
-}
-#closeCookieConsent:hover {
-    color: #FFF;
-}
-#cookieConsent a.cookieConsentOK {
-    background-color: #FFFFFF;
-    color: #006AFF;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 0 20px;
-    cursor: pointer;
-    float: right;
-    margin: 0 60px 0 10px;
-}
-#cookieConsent a.cookieConsentOK:hover {
-    background-color: #FAFAFA;
-}
-/*Cookie Consent End*/
