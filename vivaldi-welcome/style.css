@@ -240,7 +240,7 @@ body, html {
     
 .parallax { 
     /* The image used */
-    background: rgba(0,0,0,0.5) url("");
+    background: rgba(0,0,0,0.5) url("../start-page/resources/bg.jpg");
     background-blend-mode: darken;
 
     /* Set a specific height */
