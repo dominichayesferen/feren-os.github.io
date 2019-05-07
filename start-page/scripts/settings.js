@@ -14,13 +14,13 @@ function getCookie(cname)
 var getbgurl = getbgurl || {}
 
 function getbg() {
-    var bgurltext = (getCookie("userbg") || "../start-page/resources/kyle-hinkson-498968-unsplash.jpg");
+    var bgurltext = (getCookie("userbg") || "../start-page/resources/bg.jpg");
     document.getElementById("bgurltextbox").value=bgurltext;
 }
 
 function savesettings() {
 //     if (document.getElementById("bgurltextbox").value = null) {
-//         document.getElementById("bgurltextbox").value="/resources/kyle-hinkson-498968-unsplash.jpg";
+//         document.getElementById("bgurltextbox").value="/resources/bg.jpg";
 //     }
     setCookie("userbg", document.getElementById("bgurltextbox").value)
     window.location.href = "https://feren-os.github.io/start-page";
