@@ -63,7 +63,7 @@ function doSearch()
     -----------------------------------------------------  */
 function setBG()
 {
-    var bgurl = (getCookie('userbg') || "../start-page/resources/kyle-hinkson-498968-unsplash.jpg")
+    var bgurl = (getCookie('userbg') || "../start-page/resources/bg.jpg")
     document.getElementById("bgparallax").style.backgroundImage = ("url("+bgurl+")")
 }
 
