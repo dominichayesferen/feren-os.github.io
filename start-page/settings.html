@@ -10,6 +10,31 @@
 		<title id="title">Feren OS Start Page Settings</title>
 		<link rel="stylesheet" href="style-page.css" type="text/css">
 		<script type="text/javascript" src="scripts/settings.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+		<script>
+		window.addEventListener("load", function(){
+		window.cookieconsent.initialise({
+		  "palette": {
+		    "popup": {
+		      "background": "#000000c1",
+		      "text": "#ffffff"
+		    },
+		    "button": {
+		      "background": "#ffffff",
+		      "text": "#006aff"
+		    }
+		  },
+		  "theme": "classic",
+		  "position": "bottom-left",
+		  "content": {
+		    "message": "This website uses cookies to save your Start Page Settings offline.",
+		    "dismiss": "Thanks",
+		    "link": "More info about cookies"
+		  }
+		})});
+		</script>
 	</head>
 	<body>
 		<h2>Settings</h2>
