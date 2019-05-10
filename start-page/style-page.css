@@ -65,8 +65,11 @@ body, html {
 }
 
 .bulletpoints {
-    line-height: 22pt;
     font-size: 14px;
+}
+
+.extraspacing {
+    line-height: 22pt;
 }
 
 #containersearch {
