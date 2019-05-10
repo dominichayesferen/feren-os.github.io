@@ -27,6 +27,21 @@ function findNext(where, now)
 	return next;
 }
 
+/*function findPrevious(where, now) 
+{
+	var isPrevious = false;
+	var previous = null;
+	for (item in where) {
+		if (isPrevious) {
+			previous = item;
+			isPrevious = false;
+		}
+		if (item == now) isPrevious = true;
+	}
+	if (previous == null) previous = firstProp(where);
+	return previous;
+}*/
+
 function inArray(needle, haystack) 
 {
 	return ((','+haystack.toString()+',').indexOf(','+needle+',')!==-1)
