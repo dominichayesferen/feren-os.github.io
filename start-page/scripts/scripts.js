@@ -257,15 +257,22 @@ $(document).keyup(function(e)
 	if (e.which == 17) isCtrl=true;
 	if (e.which == 91) isCmd=true;
 	
-	if (e.which == 49 && isCtrl == true) 	{ /* Key "1" */ 	nextEngine(); return false; }
 	if (e.which == 50 && isCtrl == true) 	{ /* Key "2" */ 	nextPlace(); return false; }
 	if (e.which == 51 && isCtrl == true) 	{ /* Key "3" */ 	nextLanguage(); return false; }
+	
+	if (e.which == 37)						{ /* Arrow Left */	prevEngine(); }
+	if (e.which == 39)						{ /* Arrow Right */	nextEngine(); }
 		
 	if (e.which == 38) 						{ /* Arrow Up */ 	prevSugResult(); }	
 	if (e.which == 40) 						{ /* Arrow Down */ 	nextSugResult(); }	
 	if (e.which == 27) 						{ /* ESC */ 		closeSugBox(false); }	
 	if (e.which == 13) 						{ /* Enter */ 		applySugResult(); }
 });
+
+function prevEngine() 
+{
+	build(findPrevious(eng, current.engine), true);
+}
 
 function nextEngine() 
 {
