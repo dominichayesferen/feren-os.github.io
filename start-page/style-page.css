@@ -63,6 +63,10 @@ body, html {
     height: 100%;
 }
 
+.linespaced {
+    line-height: 20pt;
+}
+
 #containersearch {
 	position: absolute;
 	left: 0px;
