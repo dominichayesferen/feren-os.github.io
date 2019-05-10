@@ -115,6 +115,7 @@ function indexCreate()
 	});
 	
 	$("#engines").mouseenter(function(){ indexOpen(); });
+	$("#engines").mousedown(function(){ indexOpen(); });
 	$("#engines").mouseleave(function(){ indexClose(); });
 }
 
