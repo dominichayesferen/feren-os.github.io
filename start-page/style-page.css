@@ -64,8 +64,9 @@ body, html {
     height: 100%;
 }
 
-.linespaced {
+.bulletpoints {
     line-height: 20pt;
+    font-size: 14px;
 }
 
 #containersearch {
