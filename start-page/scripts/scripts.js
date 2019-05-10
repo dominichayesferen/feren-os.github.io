@@ -260,7 +260,7 @@ $(document).keyup(function(e)
 	if (e.which == 50 && isCtrl == true) 	{ /* Key "2" */ 	nextPlace(); return false; }
 	if (e.which == 51 && isCtrl == true) 	{ /* Key "3" */ 	nextLanguage(); return false; }
 	
-	if (e.which == 37)						{ /* Arrow Left */	prevEngine(); }
+	/*if (e.which == 37)						{ Arrow Left	prevEngine(); }*/
 	if (e.which == 39)						{ /* Arrow Right */	nextEngine(); }
 		
 	if (e.which == 38) 						{ /* Arrow Up */ 	prevSugResult(); }	
@@ -269,10 +269,10 @@ $(document).keyup(function(e)
 	if (e.which == 13) 						{ /* Enter */ 		applySugResult(); }
 });
 
-function prevEngine() 
+/*function prevEngine() 
 {
 	build(findPrevious(eng, current.engine), true);
-}
+}*/
 
 function nextEngine() 
 {
