@@ -4,7 +4,7 @@ var eng = {},
 	fadeDur = 200,
 	titlePrefix = "Feren OS Start Page - ",
 	
-	idxWidth = 700,
+	idxWidth = 900,
 	idxLogoFull  = [225,80],
 	idxLogoSmall = [157,56],
 	idxMargin = 24,
@@ -77,7 +77,7 @@ function indexCreate()
 		i = 0, // Reset every row
 		j = 0, // Total
 		offset = 0,
-		cols = Math.floor(idxWidth/idxLogoSmall[0]);
+		cols = Math.floor(idxWidth/idxLogoSmall[0]); //This determines how many columns are allowed before another row is created.
 	
 	for (e in eng) 
 	{
@@ -220,6 +220,7 @@ function setPlace(place)
 	$(place).addClass("active");
 	$("#input input").focus();
 	
+	//If the current search has false or no URL (in the base.js file) for its first (starting counting from 0) index, then turn on autocomplete to show past searches.
 	if (eng[current.engine].places[current.place][1] !== false)
 	{
 		fetchSuggestions();
@@ -306,7 +307,7 @@ function fetchSuggestions(key) 
 			current.suggestionsTimestamp = new Date().getTime();
 			
 			var url = eng[current.engine].places[current.place][1];
-				url = url.replace("%query%", encodeURIComponent($("#i").val()));
+				url = url.repdocument.getElementById ("btnsave").addEventListener ("click", resetEmotes, false);lace("%query%", encodeURIComponent($("#i").val()));
 				url = url.replace("%time%", current.suggestionsTimestamp);
 			if (typeof eng[current.engine].languages == "object") 
 				url = url.replace("%lang%", eng[current.engine].languages[current.language]);
@@ -403,10 +404,3 @@ function applySugResult()
 		closeSugBox(false);
 	}
 }
-
-
-
-
-
-
-
