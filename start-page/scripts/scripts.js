@@ -307,7 +307,7 @@ function fetchSuggestions(key) 
 			current.suggestionsTimestamp = new Date().getTime();
 			
 			var url = eng[current.engine].places[current.place][1];
-				url = url.repdocument.getElementById ("btnsave").addEventListener ("click", resetEmotes, false);lace("%query%", encodeURIComponent($("#i").val()));
+				url = url.replace("%query%", encodeURIComponent($("#i").val()));
 				url = url.replace("%time%", current.suggestionsTimestamp);
 			if (typeof eng[current.engine].languages == "object") 
 				url = url.replace("%lang%", eng[current.engine].languages[current.language]);
