@@ -29,7 +29,7 @@ function getCookie(cname)
 function firstRun()
 {
     ua = navigator.userAgent.toLowerCase();
-    // Is Vivaldi the browser?
+    // Is Vivaldi the browser and are we on Linux (e.g.: Feren OS)?
     if (ua.indexOf('vivaldi') !== -1 && (navigator.appVersion.indexOf("Linux")!=-1 || navigator.appVersion.indexOf("X11")!=-1)) {
 	    if (getCookie("vivaldifirstrun") !== "1") {
 		    setCookie("vivaldifirstrun", "0");
