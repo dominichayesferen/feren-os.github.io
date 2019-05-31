@@ -38,6 +38,17 @@ eng.twitter = {
 	}
 };
 
+/*	DUCKDUCKGO	
+	----------------------------------------------------- */
+
+eng.duckduckgo = {
+	pageTitle: "DuckDuckGo",
+	logo: "duckduckgo.png",
+	places: {
+		'Search DuckDuckGo' : ["https://www.ddg.co/?q=%query%", true]
+	}
+};
+
 
 /*	YOUTUBE
 	----------------------------------------------------- */
@@ -47,5 +58,5 @@ eng.youtube = {
 	logo: "youtube.png",
 	places: {
 		'Videos' : ["http://www.youtube.com/results?search_query=%query%", apiUrl+"?eng=youtube&timestamp=%time%&q=%query%"]
-	},
+	}
 };
