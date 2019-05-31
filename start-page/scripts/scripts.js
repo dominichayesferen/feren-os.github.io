@@ -26,25 +26,25 @@ function getCookie(cname)
     if (match) return match[2];
 }
 
-function firstRun()
-{
-    ua = navigator.userAgent.toLowerCase();
-    // Is Vivaldi the browser?
-    if ua.indexOf('vivaldi') !== -1 {
-	    if getCookie("vivaldifirstrun") !== 1 {
-		    setCookie("vivaldifirstrun" "0");
-		    if getCookie("vivaldifirstrun") == 0 {
-			    setCookie("vivaldifirstrun" "1");
-			    window.location.href = "https://feren-os.github.io/vivaldi-welcome/";
-		    }
-	    }
-    }
-}
+//function firstRun()
+//{
+//    ua = navigator.userAgent.toLowerCase();
+//    // Is Vivaldi the browser?
+//    if ua.indexOf('vivaldi') !== -1 {
+//	    if getCookie("vivaldifirstrun") !== 1 {
+//		    setCookie("vivaldifirstrun" "0");
+//		    if getCookie("vivaldifirstrun") == 0 {
+//			    setCookie("vivaldifirstrun" "1");
+//			    window.location.href = "https://feren-os.github.io/vivaldi-welcome/";
+//		    }
+//	    }
+//    }
+//}
 
 $(function()
 {
 	// Vivaldi First Run check
-	firstRun();
+	//firstRun();
 	
 	// Create Engine Index
 	
