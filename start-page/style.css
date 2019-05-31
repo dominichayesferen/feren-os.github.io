@@ -155,6 +155,10 @@ body, html {
   color: rgba(255,255,255,0.6);
 }
 
+.disclaimers a {
+  color: rgba(243,248,255,0.6);
+}
+
 hr {
     margin-left: 110px;
     margin-right: 110px;
@@ -295,8 +299,6 @@ hr {
 #sugs li a:active {
 	background: #212121;
 }
-
-
 
 .footer {
   position: absolute;
