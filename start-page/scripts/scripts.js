@@ -39,11 +39,12 @@ function firstRun()
 		    }
 	    }
     }
+}
 
 $(function()
 {
 	// Vivaldi First Run check
-	//firstRun();
+	firstRun();
 	
 	// Create Engine Index
 	
