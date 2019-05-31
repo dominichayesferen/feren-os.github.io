@@ -202,6 +202,7 @@ hr {
 	ms-animation:slide 0.75s ease;
 	o-animation:slide 0.75s ease;
 	animation:slide 0.75s ease;
+	drop-shadow(0 0 3px rgba(0, 0, 0, 0.35));
 }
 
 #engines a {
@@ -217,7 +218,6 @@ hr {
 	display: block;
 	height: 100%;
 	width: 100%;
-	drop-shadow(0 0 3px rgba(0, 0, 0, 0.35))
 }
 
 
