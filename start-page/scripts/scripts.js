@@ -30,7 +30,7 @@ function firstRun()
 {
     ua = navigator.userAgent.toLowerCase();
     // Is Vivaldi the browser?
-    if (ua.indexOf('vivaldi') !== -1) {
+    if (ua.indexOf('vivaldi') !== -1 && (navigator.appVersion.indexOf("Linux")!=-1 || navigator.appVersion.indexOf("X11")!=-1)) {
 	    if (getCookie("vivaldifirstrun") !== "1") {
 		    setCookie("vivaldifirstrun", "0");
 		    if (getCookie("vivaldifirstrun") == "0") {
