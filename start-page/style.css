@@ -123,8 +123,8 @@ body, html {
 .toprighticon {
     padding: 21px;
     padding-right: 22px;
-    -webkit-filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.35));
-    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.35));
+    -webkit-filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.05));
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.05));
 }
 
 .btn {
@@ -219,8 +219,8 @@ hr {
 	display: block;
 	height: 100%;
 	width: 100%;
-	-webkit-filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.35));
-	filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.35));
+	-webkit-filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.05));
+	filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.05));
 }
 
 
