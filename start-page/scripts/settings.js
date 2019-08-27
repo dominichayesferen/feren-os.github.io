@@ -20,11 +20,11 @@ function getbg() {
 
 function gettickboxesstates() {
     var hidetiles = getCookie("hidetiles");
-    document.getElementById("hidetilestoggle").value=hidetiles;
+    document.getElementById("hidetilestoggle").checked=hidetiles;
     var hideblog = getCookie('hideblog');
-    document.getElementById("hideblogtoggle").value=hideblog;
+    document.getElementById("hideblogtoggle").checked=hideblog;
     var hidecredits = getCookie('hidecredits');
-    document.getElementById("hidecreditstoggle").value=hidecredits;
+    document.getElementById("hidecreditstoggle").checked=hidecredits;
 }
 
 function savesettings() {
@@ -32,9 +32,9 @@ function savesettings() {
 //         document.getElementById("bgurltextbox").value="/resources/bg.jpg";
 //     }
     setCookie("userbg", document.getElementById("bgurltextbox").value)
-    setCookie("hidetiles", document.getElementById("hidetilestoggle").value)
-    setCookie("hideblog", document.getElementById("hideblogtoggle").value)
-    setCookie("hidecredits", document.getElementById("hidecreditstoggle").value)
+    setCookie("hidetiles", document.getElementById("hidetilestoggle").checked)
+    setCookie("hideblog", document.getElementById("hideblogtoggle").checked)
+    setCookie("hidecredits", document.getElementById("hidecreditstoggle").checked)
     window.location.href = "https://feren-os.github.io/start-page";
 }
 
