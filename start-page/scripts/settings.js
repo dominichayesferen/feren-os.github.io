@@ -18,11 +18,23 @@ function getbg() {
     document.getElementById("bgurltextbox").value=bgurltext;
 }
 
+function gettickboxesstates() {
+    var hidetiles = getCookie("hidetiles");
+    document.getElementById("hidetilestoggle").value=hidetiles;
+    var hideblog = getCookie('hideblog');
+    document.getElementById("hideblogtoggle").value=hideblog;
+    var hidecredits = getCookie('hidecredits');
+    document.getElementById("hidecreditstoggle").value=hidecredits;
+}
+
 function savesettings() {
 //     if (document.getElementById("bgurltextbox").value = null) {
 //         document.getElementById("bgurltextbox").value="/resources/bg.jpg";
 //     }
     setCookie("userbg", document.getElementById("bgurltextbox").value)
+    setCookie("hidetiles", document.getElementById("hidetilestoggle").value)
+    setCookie("hideblog", document.getElementById("hideblogtoggle").value)
+    setCookie("hidecredits", document.getElementById("hidecreditstoggle").value)
     window.location.href = "https://feren-os.github.io/start-page";
 }
 

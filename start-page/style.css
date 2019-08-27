@@ -73,9 +73,17 @@ body, html {
 	height: 144px;
 }
 
+.old-style-search {
+	top: calc(50% - 83px) !important;
+}
+
+.searchlabelspace {
+    margin-top: 290px;
+}
+
 .shortcutscontainer {
     display: flex;
-	margin-top: 290px;
+	margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
@@ -206,6 +214,11 @@ hr {
 	animation:slide 0.75s ease;
 }
 
+.old-style-engines {
+	bottom: calc(50% + 40px) !important;
+    top: auto !important;
+}
+
 #engines a {
 	display: block;
 	width: 225px;
@@ -310,6 +323,8 @@ hr {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(255,255,255,0);
   text-align: center;
+	-webkit-filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.1));
+	filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.1));
 }
