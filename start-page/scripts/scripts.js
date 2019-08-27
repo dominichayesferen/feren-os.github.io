@@ -85,25 +85,22 @@ function setBG()
     document.getElementById("bgparallax").style.backgroundImage = ("linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("+bgurl+")")
 }
 
-function setVisibility()
+function setSettings()
 {
     var hidetiles = getCookie('hidetiles');
     var hideblog = getCookie('hideblog');
     var hidecredits = getCookie('hidecredits');
-    if ((hidetiles == true) && (hideblog == true) && (hidecredits == true))
+    if (hidetiles == true && hideblog == true && hidecredits == true)
         window.location.href = "https://feren-os.github.io/start-page/legacy";
     if (hidetiles == true)
-        $('.shortcutscontainer').hide();
+        document.getElementByClass("shortcutscontainer").style.display = "none";
     if (hideblog == true)
-        $('.blog-item').hide();
+        $('.blog-item').hide()
     if (hidecredits == true)
-        $('.disclaimers').hide();
-}
-
-function setSettings()
-{
-    setVisibility();
-    setBG();
+        $('.disclaimers').hide()
+    
+    var bgurl = (getCookie('userbg') || "../start-page/resources/bg.jpg")
+    document.getElementById("bgparallax").style.backgroundImage = ("linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("+bgurl+")")
 }
 
 
