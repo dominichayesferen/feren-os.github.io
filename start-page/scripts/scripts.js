@@ -90,16 +90,16 @@ function setSettings()
     var hidetiles = getCookie('hidetiles');
     var hideblog = getCookie('hideblog');
     var hidecredits = getCookie('hidecredits');
-    if (hidetiles == true && hideblog == true && hidecredits == true) {
+    if (hidetiles == "true" && hideblog == "true" && hidecredits == "true") {
         window.location.href = "https://feren-os.github.io/start-page/legacy";
     }
-    if (hidetiles == true) {
+    if (hidetiles == "true") {
         $('.shortcutscontainer').hide();
     }
-    if (hideblog == true) {
+    if (hideblog == "true") {
         $('.blog-item').hide();
     }
-    if (hidecredits == true) {
+    if (hidecredits == "true") {
         $('.disclaimers').hide();
     }
     
