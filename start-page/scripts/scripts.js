@@ -93,7 +93,7 @@ function setSettings()
     if (hidetiles == true && hideblog == true && hidecredits == true)
         window.location.href = "https://feren-os.github.io/start-page/legacy";
     if (hidetiles == true)
-        document.getElementByClass("shortcutscontainer").style.display = "none";
+        $('.shortcutscontainer').hide()
     if (hideblog == true)
         $('.blog-item').hide()
     if (hidecredits == true)
